@@ -1,4 +1,4 @@
-import PFP from '../../public/theo.jpg';
+import PFP from '../../public/theo.webp';
 import Image from 'next/image';
 
 const ProfileCard = () => {
