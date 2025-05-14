@@ -7,12 +7,27 @@ import StravaLogo from 'public/strava.png';
 import WikiLogo from 'public/wikipedia.svg';
 import GitLogo from 'public/git.png';
 import ExperienceCard from "~/components/ExperienceCard";
+import { Metadata } from "next";
 
-export const metadata = {
+export const metadata: Metadata = {
+  title: 'Theo Urban',
+  description: 'Theo Urban\'s personal website',
+  keywords: ['Theo Urban', 'Theo', 'Urban', 'Computer Science', 'AI', 'Carnegie Mellon University'],
   icons: {
-    icon: '/icon.png', // /public path
+    icon: [
+      {
+        media: '(prefers-color-scheme: light)',
+        url: '/icon-light.png',
+        href: '/icon-light.png',
+      },
+      {
+        media: '(prefers-color-scheme: dark)',
+        url: '/icon.png',
+        href: '/icon-dark.png',
+      },
+    ],
   },
-}
+};
 
 export default function HomePage() {
   
