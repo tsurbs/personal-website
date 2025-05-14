@@ -14,18 +14,7 @@ export const metadata: Metadata = {
   description: 'Theo Urban\'s personal website',
   keywords: ['Theo Urban', 'Theo', 'Urban', 'Computer Science', 'AI', 'Carnegie Mellon University'],
   icons: {
-    icon: [
-      {
-        media: '(prefers-color-scheme: light)',
-        url: '/icon-light.png',
-        href: '/icon-light.png',
-      },
-      {
-        media: '(prefers-color-scheme: dark)',
-        url: '/icon.png',
-        href: '/icon-dark.png',
-      },
-    ],
+    icon: '/icon.png',
   },
 };
 
