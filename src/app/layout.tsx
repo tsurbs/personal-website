@@ -3,12 +3,12 @@
 import "~/styles/globals.css";
 
 import { Lato } from 'next/font/google';
-import { type Metadata } from "next";
+import icon from "../../public/icon.png";
 import { useRef, useEffect, useState } from "react";
 import { ParallaxProvider } from "react-scroll-parallax";
 import { FormControlLabel, FormGroup, Switch } from "@mui/material";
 import BackgroundExplain from "~/components/BackgroundExplain";
-
+import Image from "next/image";
 
 
 const lato = Lato({
@@ -126,7 +126,13 @@ export default function RootLayout({
       <body className="flex min-h-screen w-full flex-col">
         <div className="fixed w-full h-16 bg-gray-800 text-white align-middle z-[100]">
           <div className="h-full px-10 grid grid-cols-4 gap-4 content-center">
-            <div className="font-medium self-center">Theo Urban</div>
+            <div className="inline-flex">
+              <Image alt="TU Icon" src={icon} width={50} height={50} className="col-start-1 col-span-1 self-center" />
+              <div className="font-medium self-center p-4">
+                Theo Urban
+              </div>
+
+            </div>  
             <div className="h-full col-start-4">
               <FormGroup>
                 <FormControlLabel control={<Switch checked={showBg} onChange={()=>setShowBg(!showBg)}/>} label={showBg ? "Show me the profile" : "Show me the background"} />

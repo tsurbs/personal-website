@@ -2,6 +2,12 @@ const ExperienceCard = () => {
     return (
         <div className='relative'>
             <div className="grid grid-cols-1 bg-white shadow-lg rounded-lg px-4 py-6">
+            <h2 className="text-gray-900 text-lg py-2 font-semibold">Capital One SWE Intern</h2>
+                <div className="bg-gray col-span-3">
+                Updates to come!
+                <hr className="my-2"></hr>
+                    
+                </div>
             <h2 className="text-gray-900 text-lg py-2 font-semibold">Lazarus AI SWE Intern</h2>
                 <div className="bg-gray col-span-3">
                 At Lazarus AI, I contributed to the company's document understanding platform by building a B2B sub-organization management system using Firebase and Flask. This structure allowed for efficient data, usage, and metrics separation and simplified billing management for clients. I also implemented obfuscation techniques for our Retrieval Augmented Generation (RAG) API for on-premise deployment and APAC Cloud deployment, including seamless CI/CD integration. Additionally, I increased test coverage on the RAG API to 80% and others through extensive unit testing, database mocking.  I also prototyped a SQL logging scheme, and established stable backups to support the Retrieval Augmented Generation (RAG) microservice. This role enabled me to strengthen my skills in backend development, database management, and production-level deployment for a rapidly evolving AI startup.

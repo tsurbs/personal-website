@@ -11,8 +11,8 @@ const ProfileCard = () => {
 
                     <p className="text-gray-600"> Learner / Leader / Runner </p>
                     <p className="text-gray-600"> Carnegie Mellon University AI Major</p>
-                    <p className="text-gray-600"> Director of ScottyLabs' Labrador Committee</p>
-                    <p className="text-gray-600"> 15-281 Teaching Assistant</p>
+                    <p className="text-gray-600"> Director of ScottyLabs</p>
+                    <p className="text-gray-600"> Former 15-281 Head TA</p>
                     <div className="flex mt-2">
                         <a href="mailto:tsurban@andrew.cmu.edu" className="text-indigo-700">Email</a>
                     </div>
