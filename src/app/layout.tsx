@@ -128,12 +128,9 @@ export default function RootLayout({
           <div className="h-full px-10 grid grid-cols-4 gap-4 content-center">
             <div className="inline-flex">
               <Image alt="TU Icon" src={icon} width={50} height={50} className="col-start-1 col-span-1 self-center" />
-              <div className="font-medium self-center p-4">
-                Theo Urban
-              </div>
 
             </div>  
-            <div className="h-full col-start-4">
+            <div className="h-full col-start-4 content-center">
               <FormGroup>
                 <FormControlLabel control={<Switch checked={showBg} onChange={()=>setShowBg(!showBg)}/>} label={showBg ? "Show me the profile" : "Show me the background"} />
               </FormGroup>
